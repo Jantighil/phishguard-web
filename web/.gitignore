@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.env
+raw.parquet
+*.csv
+urls_clean.parquet
+emails_clean.parquet
+transformer_out/
+.DS_Store

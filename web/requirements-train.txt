@@ -1,0 +1,3 @@
+# only needed to retrain (python training/*.py)
+pyarrow==26.0.0
+# only for finetune_transformer.py on a GPU: transformers datasets accelerate torch

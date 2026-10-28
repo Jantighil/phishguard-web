@@ -1,0 +1,6 @@
+.git
+__pycache__
+tests
+training
+*.md
+.github

@@ -1,0 +1,83 @@
+{
+ "test": {
+  "Word-TFIDF + Logistic Regression": {
+   "accuracy": 0.9796225541275906,
+   "precision": 0.9756989809250065,
+   "recall": 0.978255174220592,
+   "f1": 0.9769754055468342,
+   "fpr": 0.01929460580912863,
+   "fnr": 0.021744825779407912,
+   "auc": 0.9975239075679124
+  },
+  "Handcrafted cues + LightGBM": {
+   "accuracy": 0.8693990969086488,
+   "precision": 0.8744082428292954,
+   "recall": 0.8226355776788054,
+   "f1": 0.847732181425486,
+   "fpr": 0.09356846473029046,
+   "fnr": 0.17736442232119465,
+   "auc": 0.9416614577501612
+  },
+  "STACKED ENSEMBLE (TF-IDF LR + cues + LightGBM)": {
+   "accuracy": 0.9826328586314692,
+   "precision": 0.9818659658344284,
+   "recall": 0.97877914592612,
+   "f1": 0.9803201259511939,
+   "fpr": 0.014315352697095435,
+   "fnr": 0.02122085407388001,
+   "auc": 0.9980934278511615
+  }
+ },
+ "top_features": {
+  "text_score": 430702.8,
+  "subject_upper": 7886.8,
+  "upper_ratio": 7293.9,
+  "excl": 7158.1,
+  "len": 5921.9,
+  "n_words": 5827.2,
+  "subject_len": 5437.6,
+  "digit_ratio": 2557.1,
+  "n_urls": 1926.5,
+  "urg_hits": 1132.6,
+  "dollar": 601.8,
+  "has_attach_word": 416.9
+ },
+ "top_terms": {
+  "phishing": [
+   "your",
+   "our",
+   "quality",
+   "product",
+   "life",
+   "he",
+   "save",
+   "girl",
+   "ae",
+   "men",
+   "now",
+   "meds",
+   "yourself",
+   "price",
+   "software"
+  ],
+  "legit": [
+   "thanks",
+   "fw",
+   "the",
+   "wrote",
+   "to",
+   "fax",
+   "attached",
+   "on",
+   "for",
+   "list",
+   "please",
+   "meeting",
+   "gas",
+   "mailing list",
+   "date"
+  ]
+ },
+ "n_train": 43420,
+ "n_test": 8637
+}

@@ -1,0 +1,24 @@
+{
+ "test": {
+  "accuracy": 0.9643525307175002,
+  "precision": 0.9659808276829553,
+  "recall": 0.9522876570243172,
+  "f1": 0.9590853693923742,
+  "fpr": 0.026216216216216216,
+  "fnr": 0.04771234297568284,
+  "auc": 0.9946654508605643,
+  "n_test": 19777
+ },
+ "top_features": {
+  "HasSocialNet": 591618.0,
+  "HasCopyrightInfo": 201529.8,
+  "HasDescription": 79934.9,
+  "HasSubmitButton": 26016.8,
+  "NoOfiFrame": 17133.3,
+  "HasFavicon": 10544.4,
+  "HasTitle": 9931.3,
+  "HasPasswordField": 8261.0,
+  "HasHiddenFields": 7581.1,
+  "IsResponsive": 4786.3
+ }
+}
